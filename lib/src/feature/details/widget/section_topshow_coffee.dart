@@ -1,6 +1,6 @@
-import 'package:coffe_ui/src/helper/custom_gap.dart';
-import 'package:coffe_ui/src/utils/app_color.dart';
-import 'package:coffe_ui/src/utils/app_textstyle.dart';
+import '../../../helper/custom_gap.dart';
+import '../../../utils/app_color.dart';
+import '../../../utils/app_textstyle.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
 

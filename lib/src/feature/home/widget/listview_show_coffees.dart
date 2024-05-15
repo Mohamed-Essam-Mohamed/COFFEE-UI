@@ -1,5 +1,5 @@
-import 'package:coffe_ui/src/feature/details/details_screen.dart';
-import 'package:coffe_ui/src/feature/home/widget/cart_item.dart';
+import '../../details/details_screen.dart';
+import 'cart_item.dart';
 import 'package:flutter/material.dart';
 
 class ListViewShowCoffee extends StatelessWidget {

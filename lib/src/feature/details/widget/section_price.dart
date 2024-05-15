@@ -1,4 +1,4 @@
-import 'package:coffe_ui/src/data/resorces_list.dart';
+import '../../../data/resorces_list.dart';
 import 'package:flutter/material.dart';
 
 class SectionPrice extends StatelessWidget {
