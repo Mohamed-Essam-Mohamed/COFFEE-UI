@@ -1,5 +1,5 @@
-import 'package:coffe_ui/src/feature/home/home_screen.dart';
-import 'package:coffe_ui/src/feature/splash/splash_screen.dart';
+import 'src/feature/home/home_screen.dart';
+import 'src/feature/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
