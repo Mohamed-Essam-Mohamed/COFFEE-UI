@@ -1,3 +1,4 @@
+import 'package:coffe_ui/src/feature/Details/details_screen.dart';
 import 'package:coffe_ui/src/feature/home/widget/cart_item.dart';
 import 'package:flutter/material.dart';
 
@@ -21,12 +22,12 @@ class ListViewShowCoffee extends StatelessWidget {
             highlightColor: Colors.transparent,
             splashColor: Colors.transparent,
             onTap: () {
-              // Navigator.push(
-              //   context,
-              //   MaterialPageRoute(
-              //     builder: (context) => Details(index),
-              //   ),
-              // );
+              Navigator.push(
+                context,
+                MaterialPageRoute(
+                  builder: (context) => DetailsScreen(index),
+                ),
+              );
             },
             child: CartItem(index: index),
           );
