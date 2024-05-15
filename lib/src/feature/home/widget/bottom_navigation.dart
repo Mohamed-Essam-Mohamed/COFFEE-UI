@@ -1,12 +1,12 @@
 import 'package:coffe_ui/src/utils/app_color.dart';
 import 'package:flutter/material.dart';
 
-class bottom_navigation extends StatefulWidget {
+class BottomNavigation extends StatefulWidget {
   @override
-  State<bottom_navigation> createState() => _bottom_navigationState();
+  State<BottomNavigation> createState() => _BottomNavigationState();
 }
 
-class _bottom_navigationState extends State<bottom_navigation> {
+class _BottomNavigationState extends State<BottomNavigation> {
   int index = 0;
   @override
   Widget build(BuildContext context) {
