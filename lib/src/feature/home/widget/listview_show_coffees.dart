@@ -1,3 +1,4 @@
+import 'package:coffe_ui/src/feature/details/details_screen.dart';
 import 'package:coffe_ui/src/feature/home/widget/cart_item.dart';
 import 'package:flutter/material.dart';
 
