@@ -1,4 +1,5 @@
 import 'package:coffe_ui/src/feature/home/home_screen.dart';
+import 'package:coffe_ui/src/feature/splash/splash_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -10,9 +11,13 @@ class CoffeeShop extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomeScreen(),
+      initialRoute: SplashScreen.routeName,
+      routes: {
+        SplashScreen.routeName: (context) => SplashScreen(),
+        HomeScreen.routeName: (context) => const HomeScreen(),
+      },
     );
   }
 }
